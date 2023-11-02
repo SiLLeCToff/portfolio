@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39d0a00f-0017-4871-a74c-1801b0e8348c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/controllers/basketController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/controllers/basketController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/controllers/snackerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/controllers/snackerController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/models/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/models/models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2XR7crJ1OrUO6OI2Enku8SWtH9W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sillect/Desktop/snackshop/with-turbopack&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/sillect/Desktop/snackshop/with-turbopack/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/images" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39d0a00f-0017-4871-a74c-1801b0e8348c" name="Changes" comment="" />
+      <created>1698580120297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698580120297</updated>
+      <workItem from="1698580121518" duration="6134000" />
+      <workItem from="1698587571814" duration="2388000" />
+      <workItem from="1698589991356" duration="19000000" />
+      <workItem from="1698655398355" duration="27669000" />
+      <workItem from="1698738631164" duration="37940000" />
+      <workItem from="1698827064936" duration="19759000" />
+      <workItem from="1698856340275" duration="51000" />
+      <workItem from="1698856634341" duration="3000" />
+      <workItem from="1698857650563" duration="6546000" />
+      <workItem from="1698913624674" duration="5877000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../snackshop/src/components/AdminPage/AdminPage.jsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../snackshop/src/components/AdminPage/ProductsLabel/LeftBlock/ModalWindow/ModalWindow.jsx</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../snackshop/SneakerShopApp/src/components/AdminPage/ProductsLabel/LeftBlock/ModalWindow/ModalWindow.jsx</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

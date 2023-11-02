@@ -1,0 +1,52 @@
+.vite {
+    background-image: url('./images/vite.svg');
+    @apply w-[5vw] h-[10vh] bg-contain bg-no-repeat bg-center;
+}
+
+.react {
+    background-image: url('./images/react.svg');
+    @apply w-[5vw] h-[10vh] bg-contain bg-no-repeat bg-center;
+}
+
+.next{
+    background-image: url('./images/next.svg');
+    @apply w-[5vw] h-[10vh] bg-contain bg-no-repeat bg-center;
+    filter: invert(100%);
+}
+.git {
+    background-image: url('./images/git.svg');
+    @apply w-[5vw] h-[10vh] bg-contain bg-no-repeat bg-center;
+}
+
+.webpack {
+    background-image: url('./images/webpack.svg');
+    @apply w-[5vw] h-[10vh] bg-contain bg-no-repeat bg-center;
+}
+
+.mui {
+    background-image: url('./images/mui.svg');
+    @apply w-[5vw] h-[10vh] bg-contain bg-no-repeat bg-center;
+}
+
+.tailwind {
+    background-image: url('./images/tailwind.svg');
+    @apply w-[5vw] h-[10vh] bg-contain bg-no-repeat bg-center;
+}
+
+.redux {
+    background-image: url('./images/redux.svg');
+    @apply w-[5vw] h-[10vh] bg-contain bg-no-repeat bg-center;
+}
+
+.js {
+    background-image: url('./images/js.svg');
+    @apply w-[5vw] h-[10vh] bg-contain bg-no-repeat bg-center;
+}
+.css {
+    background-image: url('./images/css.svg');
+    @apply w-[5vw] h-[10vh] bg-contain bg-no-repeat bg-center;
+}
+.html {
+    background-image: url('./images/html.svg');
+    @apply w-[5vw] h-[10vh] bg-contain bg-no-repeat bg-center;
+}

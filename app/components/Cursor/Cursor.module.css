@@ -1,0 +1,26 @@
+.small {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 100; /* Устанавливаем значение z-index, чтобы курсор был выше других элементов */
+    position: fixed; /* Фиксируем позицию, чтобы курсор двигался по всему экрану */
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
+.hiddenn {
+    display: none; /* или visibility: hidden; */
+}
+@keyframes stretch {
+    0% {
+        opacity: 0.2;
+        background-color: green;
+        border-radius: 50%;
+    }
+    50% {
+        background-color: orange;
+    }
+    100% {
+        background-color: red;
+    }
+}
