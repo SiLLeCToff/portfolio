@@ -48,7 +48,7 @@ export default function Home() {
                     <h2 className="whitespace-nowrap flex items-start">- Стилизация: CSS, TAILWIND<p className="flex font-light xl:text-[15px] md:text-[15px] sm:text-[12px] text-[#03dac6] max-sm:hidden">*Мой любимый, дает скорость верстки</p></h2>
                     <h2>- Git & GitHub для удобства разработки с репозиториями</h2>
                     <h2>- REST API (Axios, Fetch)</h2>
-                    <h2>-Vite и TurboPack</h2>
+                    <h2>- Vite и TurboPack</h2>
                     <br/>
                     <h2><p className="text-[#03dac6] -translate-x-5">Инструменты разработки Backend:</p></h2>
                     <h2>-NODE.JS & Express</h2>
