@@ -1,5 +1,4 @@
 "use client"
-
 import React, { useEffect, useRef } from 'react';
 
 const YoutubeVideo: React.FC = () => {
@@ -7,15 +6,19 @@ const YoutubeVideo: React.FC = () => {
     let player: any;
 
     useEffect(() => {
-        // Загрузка YouTube API
-        const tag = document.createElement('script');
-        tag.src = 'https://www.youtube.com/iframe_api';
-        const firstScriptTag = document.getElementsByTagName('script')[0];
-        firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag);
+        const loadYoutubeScript = () => {
+            const tag = document.createElement('script');
+            tag.src = 'https://www.youtube.com/iframe_api';
+            const firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag);
+        };
+
+        // Ожидаем загрузку YouTube API
+        loadYoutubeScript();
 
         // Функция создания плеера
         const onYouTubeIframeAPIReady = () => {
-            player = new YT.Player('youtube-player', {
+            player = new (window as any).YT.Player('youtube-player', {
                 height: '100%',
                 width: '100%',
                 videoId: 'xIbS1QZC55M',
@@ -35,7 +38,7 @@ const YoutubeVideo: React.FC = () => {
             });
         };
 
-        window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+        (window as any).onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
 
         const handleScroll = () => {
             if (!player || !videoRef.current) return;
@@ -43,9 +46,9 @@ const YoutubeVideo: React.FC = () => {
             const rect = videoRef.current.getBoundingClientRect();
             const isInView = rect.top < window.innerHeight && rect.bottom >= 0;
 
-            if (isInView && player.getPlayerState() !== YT.PlayerState.PLAYING) {
+            if (isInView && player.getPlayerState() !== -1) {
                 player.playVideo();
-            } else if (!isInView && player.getPlayerState() === YT.PlayerState.PLAYING) {
+            } else if (!isInView && player.getPlayerState() === 1) {
                 player.pauseVideo();
             }
         };
