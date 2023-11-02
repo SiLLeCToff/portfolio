@@ -1,37 +1,51 @@
 "use client"
-import React, { useEffect, useRef, useState } from 'react';
-import YouTube from 'react-youtube';
 
-const YoutubeVideo = () => {
-    const [player, setPlayer] = useState<YouTube | null>(null);
+import React, { useEffect, useRef } from 'react';
+
+const YoutubeVideo: React.FC = () => {
     const videoRef = useRef<HTMLDivElement | null>(null);
-
-    const opts = {
-        height: '100%',
-        width: '100%',
-        playerVars: {
-            controls: 0,
-            modestbranding: 1,
-            rel: 0,
-            fs: 0,
-            iv_load_policy: 3,
-            loop: 1,
-            mute: 1,
-            showinfo: 0,
-        },
-    };
-
-    const onPlayerReady = (event: any) => {
-        setPlayer(event.target);
-    };
+    let player: any;
 
     useEffect(() => {
+        // Загрузка YouTube API
+        const tag = document.createElement('script');
+        tag.src = 'https://www.youtube.com/iframe_api';
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag);
+
+        // Функция создания плеера
+        const onYouTubeIframeAPIReady = () => {
+            player = new YT.Player('youtube-player', {
+                height: '100%',
+                width: '100%',
+                videoId: 'xIbS1QZC55M',
+                playerVars: {
+                    controls: 0,
+                    modestbranding: 1,
+                    rel: 0,
+                    fs: 0,
+                    iv_load_policy: 3,
+                    loop: 1,
+                    mute: 1,
+                    showinfo: 0,
+                },
+                events: {
+                    onReady: onPlayerReady,
+                },
+            });
+        };
+
+        window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+
         const handleScroll = () => {
-            const rect : any = videoRef.current?.getBoundingClientRect();
+            if (!player || !videoRef.current) return;
+
+            const rect = videoRef.current.getBoundingClientRect();
             const isInView = rect.top < window.innerHeight && rect.bottom >= 0;
-            if (isInView && player) {
+
+            if (isInView && player.getPlayerState() !== YT.PlayerState.PLAYING) {
                 player.playVideo();
-            } else if (player) {
+            } else if (!isInView && player.getPlayerState() === YT.PlayerState.PLAYING) {
                 player.pauseVideo();
             }
         };
@@ -41,11 +55,15 @@ const YoutubeVideo = () => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, [player]);
+    }, []);
+
+    const onPlayerReady = (event: any) => {
+        player = event.target;
+    };
 
     return (
-        <div className="flex bg-red-50  xl:w-[1050px] xl:h-[655px] sm:w-[80%] sm:h-[500px] max-sm:w-[100%] max-sm:h-[300px] justify-center" ref={videoRef}>
-            <YouTube videoId="xIbS1QZC55M" opts={opts} className="flex w-full" onReady={onPlayerReady} />
+        <div className="flex xl:w-[1050px] xl:h-[655px] sm:w-[80%] sm:h-[500px] max-sm:w-[100%] max-sm:h-[300px] justify-center" ref={videoRef}>
+            <div id="youtube-player" />
         </div>
     );
 };
