@@ -21,7 +21,7 @@ const YoutubeVideo = () => {
         },
     };
 
-    const onPlayerReady = (event: { target: YouTube }) => {
+    const onPlayerReady = (event: any) => {
         setPlayer(event.target);
     };
 
