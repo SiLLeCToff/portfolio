@@ -14,8 +14,7 @@
       <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/models/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/models/models.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <workItem from="1698856340275" duration="51000" />
       <workItem from="1698856634341" duration="3000" />
       <workItem from="1698857650563" duration="6546000" />
-      <workItem from="1698913624674" duration="8572000" />
+      <workItem from="1698913624674" duration="8669000" />
     </task>
     <servers />
   </component>
