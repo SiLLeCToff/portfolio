@@ -15,7 +15,7 @@
       <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +46,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sillect/Desktop/snackshop/with-turbopack&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sillect/Desktop/snack FRONT+ BACK&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/sillect/Desktop/snackshop/with-turbopack/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -67,6 +67,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../snack FRONT+ BACK" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/images" />
       <recent name="$PROJECT_DIR$/app" />
@@ -89,7 +92,12 @@
       <workItem from="1698856340275" duration="51000" />
       <workItem from="1698856634341" duration="3000" />
       <workItem from="1698857650563" duration="6546000" />
-      <workItem from="1698913624674" duration="10666000" />
+      <workItem from="1698913624674" duration="12216000" />
+      <workItem from="1699002965753" duration="932000" />
+      <workItem from="1699006757983" duration="7000" />
+      <workItem from="1699023914414" duration="7508000" />
+      <workItem from="1699110247033" duration="8853000" />
+      <workItem from="1699261311886" duration="3656000" />
     </task>
     <servers />
   </component>
