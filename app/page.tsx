@@ -54,10 +54,10 @@ export default function Home() {
                     <h2>-NODE.JS & Express</h2>
                     <h2>-BCRYPT и JWT для авторизации</h2>
                     <br/>
-                    <h2 className="flex"><p className="flex text-[#03dac6] -translate-x-5">Опыт работы:</p></h2>
-                    <h2 className="flex text-start"><p className="flex  text-red-800 font-medium">&nbsp;6 месяцев&nbsp;</p> работы на фрилансе и&nbsp;<p className="flex text-red-800 font-medium">8 месяцев&nbsp;</p> коммерции. </h2>
-                    <h2 className="flex text-start">- На коммерции создание небольших сайтов/приложений, и оптимизация действующих.</h2>
-                    <h2 className="flex text-start">- На фрилансе доработки и создание админок в большей части.</h2>
+                    {/*<h2 className="flex"><p className="flex text-[#03dac6] -translate-x-5">Опыт работы:</p></h2>*/}
+                    {/*<h2 className="flex text-start"><p className="flex  text-red-800 font-medium">&nbsp;6 месяцев&nbsp;</p> работы на фрилансе и&nbsp;<p className="flex text-red-800 font-medium">8 месяцев&nbsp;</p> коммерции. </h2>*/}
+                    {/*<h2 className="flex text-start">- На коммерции создание небольших сайтов/приложений, и оптимизация действующих.</h2>*/}
+                    {/*<h2 className="flex text-start">- На фрилансе доработки и создание админок в большей части.</h2>*/}
                 </div>
             </section>
             <section className="slider" id="tab-jobs">

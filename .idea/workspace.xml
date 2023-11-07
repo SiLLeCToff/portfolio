@@ -52,7 +52,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/sillect/Desktop/snackshop/with-turbopack/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -97,7 +97,10 @@
       <workItem from="1699006757983" duration="7000" />
       <workItem from="1699023914414" duration="7508000" />
       <workItem from="1699110247033" duration="8853000" />
-      <workItem from="1699261311886" duration="3656000" />
+      <workItem from="1699261311886" duration="4289000" />
+      <workItem from="1699296686473" duration="5048000" />
+      <workItem from="1699336178905" duration="6000" />
+      <workItem from="1699336836848" duration="5773000" />
     </task>
     <servers />
   </component>
