@@ -66,13 +66,12 @@ export default function Home() {
                     <h2 className="flex text-start "><p className="text-[#03dac6] -translate-x-5">Магазин кроссовок</p></h2>
                     <h2 className="flex text-start">- Этот проект разработан только мной и все UI были самописные для производительности.</h2>
                     <h2 className="flex text-start"><p className="whitespace-nowrap flex">- Упор был сделан на Админ панель просмотреть ниже или по&nbsp;<a href="https://sneaker-shop-app.vercel.app/" className="flex whitespace-nowrap underline underline-offset-8 text-[#03dac6] hover:text-[#ff0266]">ссылке</a></p></h2>
-                    <h2 className="flex text-start"><p className="text-[#03dac6] -translate-x-5">Frontend:</p>Написан на React, Redux-Toolkit, TAILWIND</h2>
+                    <h2 className="flex text-start">- Ютуб обзор&nbsp;<a href="https://youtu.be/xIbS1QZC55M?si=mxlVB3ZSbQf4JWi-" className="flex whitespace-nowrap underline underline-offset-8 text-[#03dac6] hover:text-[#ff0266]">ссылка</a></h2>
+                    <h2 className="flex text-start mt-[20px]"><p className="text-[#03dac6] -translate-x-5">Frontend:</p>Написан на React, Redux-Toolkit, TAILWIND</h2>
                     <h2 className="flex text-start"><p className="text-[#03dac6] text-start -translate-x-5">Backend:</p>- Написан на NodeJS + Express <br/>- БД postgreSQL(пароли и почты хранятся в зашифрованном виде)<br/>
-                        - Для авторизации и шифрования использовал JWT, Bcrypt
-                    </h2>
-                    <h2>- Ютуб обзор <a href="https://youtu.be/xIbS1QZC55M?si=mxlVB3ZSbQf4JWi-" className="flex whitespace-nowrap underline underline-offset-8 text-[#03dac6] hover:text-[#ff0266]">ссылка</a></h2>
+                        - Для авторизации и шифрования использовал JWT, Bcrypt</h2>
                 </div>
-                <div className="relative flex w-full justify-center xl:h-[700px] md:h-[400px] sm:h-[300px] max-sm:h-[350px] items-start mt-[50px] mb-[20px]">
+                <div className="relative flex w-full justify-center xl:h-[700px] md:h-[400px] sm:h-[300px] max-sm:h-[350px] items-start mt-[150px] mb-[20px]">
 
                     <YoutubeVideo/>
                 </div>
