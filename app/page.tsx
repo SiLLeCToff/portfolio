@@ -70,6 +70,7 @@ export default function Home() {
                     <h2 className="flex text-start"><p className="text-[#03dac6] text-start -translate-x-5">Backend:</p>- Написан на NodeJS + Express <br/>- БД postgreSQL(пароли и почты хранятся в зашифрованном виде)<br/>
                         - Для авторизации и шифрования использовал JWT, Bcrypt
                     </h2>
+                    <h2>- Ютуб обзор <a href="https://youtu.be/xIbS1QZC55M?si=mxlVB3ZSbQf4JWi-" className="flex whitespace-nowrap underline underline-offset-8 text-[#03dac6] hover:text-[#ff0266]">ссылка</a></h2>
                 </div>
                 <div className="relative flex w-full justify-center xl:h-[700px] md:h-[400px] sm:h-[300px] max-sm:h-[350px] items-start mt-[50px] mb-[20px]">
 

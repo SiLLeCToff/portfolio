@@ -15,8 +15,6 @@
       <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/YoutubeVideo/YoutubeVideo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/YoutubeVideo/YoutubeVideo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +105,7 @@
       <workItem from="1699381003574" duration="486000" />
       <workItem from="1699705114304" duration="273000" />
       <workItem from="1699705417815" duration="223000" />
-      <workItem from="1699731791657" duration="6658000" />
+      <workItem from="1699731791657" duration="7104000" />
     </task>
     <servers />
   </component>
