@@ -71,8 +71,10 @@ export default function Home() {
                         - Для авторизации и шифрования использовал JWT, Bcrypt
                     </h2>
                 </div>
-                <div className=" flex w-fulljustify-center items-center mt-[50px] mb-[50px]"></div>
-                <YoutubeVideo/>
+                <div className=" flex w-full justify-center h-screen items-start mt-[50px] mb-[20px]">
+
+                    <YoutubeVideo/>
+                </div>
             </section>
             <section className="slider" id="tab-contacts">
                 <h1>CONTACTS</h1>

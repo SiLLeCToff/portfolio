@@ -1,5 +1,6 @@
 "use client"
 import React, { useEffect, useRef } from 'react';
+import styles from '../../page.module.css'
 
 const YoutubeVideo: React.FC = () => {
     const videoRef = useRef<HTMLDivElement | null>(null);
@@ -65,7 +66,8 @@ const YoutubeVideo: React.FC = () => {
     };
 
     return (
-        <div className="flex xl:w-[1050px] xl:h-[655px] sm:w-[80%] sm:h-[500px] max-sm:w-[100%] max-sm:h-[300px] justify-center" ref={videoRef}>
+        <div className="flex relative z-10 xl:w-[80%] xl:h-[110%] sm:w-[80%] sm:h-[500px] max-sm:w-[100%] max-sm:h-[300px] justify-center" ref={videoRef}>
+            <div className={styles.bg}></div>
             <div id="youtube-player" />
         </div>
     );

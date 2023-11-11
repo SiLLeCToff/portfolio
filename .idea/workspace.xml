@@ -15,6 +15,8 @@
       <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../snackshopServer for Hosting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../snackshopServer for Hosting/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/YoutubeVideo/YoutubeVideo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/YoutubeVideo/YoutubeVideo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/sillect/Desktop/snackshop/with-turbopack",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/sillect/Desktop/snackshop/with-turbopack/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sillect/Desktop/snackshop/with-turbopack&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/sillect/Desktop/snackshop/with-turbopack/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -103,7 +105,9 @@
       <workItem from="1699336836848" duration="9910000" />
       <workItem from="1699366236425" duration="2421000" />
       <workItem from="1699381003574" duration="486000" />
-      <workItem from="1699705114304" duration="260000" />
+      <workItem from="1699705114304" duration="273000" />
+      <workItem from="1699705417815" duration="223000" />
+      <workItem from="1699731791657" duration="1779000" />
     </task>
     <servers />
   </component>

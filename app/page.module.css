@@ -50,3 +50,10 @@
     background-image: url('./images/html.svg');
     @apply w-[5vw] h-[10vh] bg-contain bg-no-repeat bg-center;
 }
+
+
+.bg {
+
+        background-image: url('./images/laptop.webp');
+        @apply w-[180%] absolute h-[100%] top-0 z-0  bg-contain bg-no-repeat bg-center;
+}
