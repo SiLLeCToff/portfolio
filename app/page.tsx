@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
 
-    <main className=" bg-black flex-col items-center justify-between">
+    <main className=" bg-black w-full h-full flex-col items-center justify-between">
 
         <nav className="nav flex w-full h-full">
             <h1>ISAEV RUSLAN</h1>
@@ -71,7 +71,7 @@ export default function Home() {
                         - Для авторизации и шифрования использовал JWT, Bcrypt
                     </h2>
                 </div>
-                <div className="relative flex w-full justify-center h-screen items-start mt-[50px] mb-[20px]">
+                <div className="relative flex w-full justify-center xl:h-[700px] md:h-[400px] sm:h-[300px] max-sm:h-[350px] items-start mt-[50px] mb-[20px]">
 
                     <YoutubeVideo/>
                 </div>

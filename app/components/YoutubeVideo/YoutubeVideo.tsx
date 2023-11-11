@@ -67,7 +67,7 @@ const YoutubeVideo: React.FC = () => {
 
     return (
 
-            <div className="flex absolute z-50  xl:w-[1000px] xl:h-[600px] sm:w-[80%] sm:h-[500px] max-sm:w-[100%] max-sm:h-[300px] justify-center" ref={videoRef}>
+            <div className="flex absolute z-50  xl:w-[1000px] xl:h-[600px] md:w-[600px] md:h-[370px] sm:w-[460px] sm:h-[280px] max-sm:w-[300px] max-sm:h-[200px] justify-center" ref={videoRef}>
                 <div className={styles.bg}/>
                 <div id="youtube-player" />
             </div>

@@ -55,5 +55,5 @@
 .bg {
 
         background-image: url('./images/laptop.webp');
-        @apply z-0 absolute xl:w-[1270px] xl:h-[800px] -translate-y-[95px]  bg-contain bg-no-repeat bg-center;
+        @apply z-0 absolute xl:w-[1270px] xl:h-[800px] md:w-[800px] md:h-[800px] sm:w-[650px] sm:h-[325px] max-sm:w-[400px] max-sm:h-[250px] max-sm:-translate-y-[25px] md:-translate-y-[210px] sm:-translate-y-[20px] xl:-translate-y-[95px]  bg-contain bg-no-repeat bg-center;
 }
