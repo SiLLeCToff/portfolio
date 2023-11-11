@@ -20,14 +20,14 @@ export default function Home() {
 
   return (
 
-    <main className="w-screen h-screen bg-black flex-col items-center justify-between">
+    <main className=" bg-black flex-col items-center justify-between">
 
         <nav className="nav flex w-full h-full">
             <h1>ISAEV RUSLAN</h1>
             <h3 className="span loader"><span className="m">F</span><span className="m">E</span><span className="m">R</span><span className="m">O</span><span className="m">N</span><span className="m">T</span><span className="m">E</span><span className="m">N</span><span className="m"></span><span className="m">D</span><span className="m">&nbsp;</span><span className="m">D</span><span className="m">E</span><span className="m">V</span><span className="m">E</span><span className="m">L</span><span className="m">O</span><span className="m">P</span><span className="m">E</span><span className="m">R</span></h3>
             <div className="nav-container"><a className="nav-tab" href="#tab-stack">STACK</a><a className="nav-tab" href="#tab-about">ABOUT ME</a><a className="nav-tab" href="#tab-jobs">JOBS</a><a className="nav-tab" href="#tab-contacts">CONTACTS</a></div>
         </nav>
-        <main className="main w-full">
+        <main className="main">
             <section className="slider w-full" id="tab-stack">
                 <h1>STACK</h1>
                 <h2>FRONTEND</h2>
@@ -71,7 +71,7 @@ export default function Home() {
                         - Для авторизации и шифрования использовал JWT, Bcrypt
                     </h2>
                 </div>
-                <div className=" flex w-full justify-center h-screen items-start mt-[50px] mb-[20px]">
+                <div className="relative flex w-full justify-center h-screen items-start mt-[50px] mb-[20px]">
 
                     <YoutubeVideo/>
                 </div>
